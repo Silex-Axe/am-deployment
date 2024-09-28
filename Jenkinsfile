@@ -12,7 +12,7 @@ pipeline {
         stage('Load Jenkinsfile') {
             steps {
                 // Load Jenkinsfile specific to service
-                load 'ci-cd/Jenkinsfile-auth'
+                load './Jenkinsfile-auth'
             }
         }
     }
